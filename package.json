@@ -2,15 +2,16 @@
   "name": "mysql-employee-tracker",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "inquirer": "^9.2.14",
+    "inquirer": "^8.2.4",
     "mysql2": "^3.9.1"
   }
 }
